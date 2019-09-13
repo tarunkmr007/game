@@ -1,0 +1,27 @@
+ <html>
+ <head>
+   <style type="text/css">
+     body{
+      margin:0;
+       cursor:url(http://stgsp.appsndevs.com:9041/Fusebill/game-test/mobile/holl-magnifying-glass.png), auto;
+     }
+     #zoom{
+   border:1px black solid;
+   box-shadow: 5px 5px 10px #1e1e1e;
+}
+   </style>
+ </head>
+
+<body onload="init()">
+
+ <canvas id="dndcanvas" width="2500px">Sorry, canvas not supported</canvas>
+ <canvas id="zoom" width="68" height="68" style="position:absolute; display:none; border-radius: 50%;"></canvas>
+ <canvas id="zoomMobile" width="170" height="170" style="position:absolute; display:none; border-radius: 50%;"></canvas>
+
+<img id="scream" src="http://stgsp.appsndevs.com:9041/Fusebill/game-test/images/holl-scene-bg-1.png" style="display: none;">
+<img id="img" src="http://stgsp.appsndevs.com:9041/Fusebill/game-test/mobile/holl-magnifying-glass.png" style="display: none;">
+<img id="img1" src="http://stgsp.appsndevs.com:9041/Fusebill/game-test/images/holl-frame-1-glow.png" style="display: none;">
+  <p id="text"></p>
+<script src="game.js"></script>
+</body>
+</html>
